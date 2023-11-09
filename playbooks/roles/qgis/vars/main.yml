@@ -1,5 +1,4 @@
 ---
 qgis_keyring_url: "https://download.qgis.org/downloads/qgis-archive-keyring.gpg"
-qgis_keyring: "/etc/apt/keyrings/qgis-archive-keyring.gpg"
 qgis_repo_url: "https://qgis.org/debian"
 ...
