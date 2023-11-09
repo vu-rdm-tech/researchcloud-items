@@ -1,0 +1,9 @@
+---
+- name: Install open source GIS tools
+  hosts: localhost
+
+  gather_facts: true
+  become: true
+  roles:
+    - osgistools
+...
