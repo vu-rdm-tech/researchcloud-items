@@ -6,7 +6,7 @@
 
 - name: Add qgis repository keyring
   ansible.builtin.get_url:
-    url: "{{ qgis_keyring_url }}"
+    url: https://download.qgis.org/downloads/qgis-archive-keyring.gpg
     dest: /etc/apt/keyrings/qgis-archive-keyring.gpg
     mode: '0644'
     force: true
