@@ -1,7 +1,7 @@
 ---
 - name: Add ubuntugis repository
   ansible.builtin.apt_repository:
-    repo: 'ppa:ubuntugis/ppa'
+    repo: deb https://ubuntugis.qgis.org/ubuntugis {{ ansible_distribution_release }} main
     state: present
 
 - name: Install packages
