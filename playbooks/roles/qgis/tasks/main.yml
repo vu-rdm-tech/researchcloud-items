@@ -24,7 +24,7 @@
     update_cache: yes
     pkg:
       - qgis
-      - grass
+      - grass=7.8.2-1build3 # rewquirement for qgis-plugin-grass
       - python-qgis
       - qgis-plugin-grass
 ...
